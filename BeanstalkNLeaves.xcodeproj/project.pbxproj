@@ -7,27 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B122C67E1C47832800873FA3 /* padlock-closed.png in Resources */ = {isa = PBXBuildFile; fileRef = B122C67C1C47832800873FA3 /* padlock-closed.png */; };
+		B122C67F1C47832800873FA3 /* padlock-open.png in Resources */ = {isa = PBXBuildFile; fileRef = B122C67D1C47832800873FA3 /* padlock-open.png */; };
+		B12A30061C44F83400C06D18 /* BackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B12A30051C44F83400C06D18 /* BackArrow.png */; };
+		B12A300E1C45096600C06D18 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A300D1C45096600C06D18 /* SWRevealViewController.m */; };
+		B12A30111C45147200C06D18 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A30101C45147200C06D18 /* SideMenuViewController.m */; };
+		B12A30171C451B2000C06D18 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A30161C451B2000C06D18 /* SettingsViewController.m */; };
+		B13D85971C477FEF00F5E369 /* minusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B13D85951C477FEF00F5E369 /* minusIcon.png */; };
+		B13D85981C477FEF00F5E369 /* plusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B13D85961C477FEF00F5E369 /* plusIcon.png */; };
+		B1438A531C538E09000AB4BA /* ReviewOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1438A521C538E09000AB4BA /* ReviewOrderTableViewCell.m */; };
+		B1438A591C539012000AB4BA /* ReviewOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1438A581C539012000AB4BA /* ReviewOrderViewController.m */; };
+		B1438A5C1C539DDC000AB4BA /* texgyreadventor-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1438A5A1C539DDC000AB4BA /* texgyreadventor-bold.otf */; };
+		B1438A5D1C539DDC000AB4BA /* texgyreadventor-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1438A5B1C539DDC000AB4BA /* texgyreadventor-regular.otf */; };
+		B160CCF21C4615CE00FD09C7 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B160CCF11C4615CE00FD09C7 /* WebsiteViewController.m */; };
+		B160CCF51C4615D900FD09C7 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B160CCF41C4615D900FD09C7 /* BlogViewController.m */; };
+		B1B592861C4657B100405A55 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B592841C4657B100405A55 /* Bolts.framework */; };
+		B1B592871C4657B100405A55 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B592851C4657B100405A55 /* Parse.framework */; };
+		B1B5928B1C465AA600405A55 /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5928A1C465AA600405A55 /* StoreViewController.m */; };
+		B1B5928E1C4661E900405A55 /* StoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5928D1C4661E900405A55 /* StoreTableViewCell.m */; };
 		B1CE49DA1C44EF6D00FCB055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49D91C44EF6D00FCB055 /* main.m */; };
 		B1CE49DD1C44EF6D00FCB055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49DC1C44EF6D00FCB055 /* AppDelegate.m */; };
-		B1CE49E01C44EF6D00FCB055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49DF1C44EF6D00FCB055 /* ViewController.m */; };
+		B1CE49E01C44EF6D00FCB055 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49DF1C44EF6D00FCB055 /* InitialViewController.m */; };
 		B1CE49E31C44EF6D00FCB055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CE49E11C44EF6D00FCB055 /* Main.storyboard */; };
 		B1CE49E61C44EF6D00FCB055 /* BeanstalkNLeaves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49E41C44EF6D00FCB055 /* BeanstalkNLeaves.xcdatamodeld */; };
 		B1CE49E81C44EF6D00FCB055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CE49E71C44EF6D00FCB055 /* Assets.xcassets */; };
 		B1CE49EB1C44EF6D00FCB055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CE49E91C44EF6D00FCB055 /* LaunchScreen.storyboard */; };
+		B1CE49F41C44EFD800FCB055 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49F31C44EFD800FCB055 /* SignInViewController.m */; };
+		B1CE49F71C44EFFA00FCB055 /* ContinueAsGuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49F61C44EFFA00FCB055 /* ContinueAsGuestViewController.m */; };
+		B1CE49FA1C44F00D00FCB055 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE49F91C44F00D00FCB055 /* MainScreenViewController.m */; };
+		B1CE4A091C44F16B00FCB055 /* ButtonBoxNarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CE4A021C44F16B00FCB055 /* ButtonBoxNarrow.png */; };
+		B1CE4A0A1C44F16B00FCB055 /* ButtonBoxWide.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CE4A031C44F16B00FCB055 /* ButtonBoxWide.png */; };
+		B1CE4A0B1C44F16B00FCB055 /* SideMenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CE4A061C44F16B00FCB055 /* SideMenuIcon.png */; };
+		B1CE4A0C1C44F16B00FCB055 /* TextFieldLine.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CE4A071C44F16B00FCB055 /* TextFieldLine.png */; };
+		B1CE4A0E1C44F1D400FCB055 /* blackbgwhitelogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1CE4A0D1C44F1D400FCB055 /* blackbgwhitelogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B122C67C1C47832800873FA3 /* padlock-closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "padlock-closed.png"; path = "../../../Desktop/Khullad/App Image Assets/Store Screen/padlock-closed.png"; sourceTree = "<group>"; };
+		B122C67D1C47832800873FA3 /* padlock-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "padlock-open.png"; path = "../../../Desktop/Khullad/App Image Assets/Store Screen/padlock-open.png"; sourceTree = "<group>"; };
+		B12A30051C44F83400C06D18 /* BackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackArrow.png; path = "../../../Desktop/Khullad/App Image Assets/BackArrow.png"; sourceTree = "<group>"; };
+		B12A300C1C45096600C06D18 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../Desktop/Khullad/SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		B12A300D1C45096600C06D18 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../Desktop/Khullad/SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		B12A300F1C45147200C06D18 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		B12A30101C45147200C06D18 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		B12A30151C451B2000C06D18 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B12A30161C451B2000C06D18 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B13D85951C477FEF00F5E369 /* minusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minusIcon.png; path = "../../../Desktop/Khullad/App Image Assets/Store Screen/minusIcon.png"; sourceTree = "<group>"; };
+		B13D85961C477FEF00F5E369 /* plusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusIcon.png; path = "../../../Desktop/Khullad/App Image Assets/Store Screen/plusIcon.png"; sourceTree = "<group>"; };
+		B1438A511C538E09000AB4BA /* ReviewOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewOrderTableViewCell.h; sourceTree = "<group>"; };
+		B1438A521C538E09000AB4BA /* ReviewOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewOrderTableViewCell.m; sourceTree = "<group>"; };
+		B1438A571C539012000AB4BA /* ReviewOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewOrderViewController.h; sourceTree = "<group>"; };
+		B1438A581C539012000AB4BA /* ReviewOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewOrderViewController.m; sourceTree = "<group>"; };
+		B1438A5A1C539DDC000AB4BA /* texgyreadventor-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "texgyreadventor-bold.otf"; sourceTree = "<group>"; };
+		B1438A5B1C539DDC000AB4BA /* texgyreadventor-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "texgyreadventor-regular.otf"; sourceTree = "<group>"; };
+		B160CCF01C4615CE00FD09C7 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		B160CCF11C4615CE00FD09C7 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		B160CCF31C4615D900FD09C7 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		B160CCF41C4615D900FD09C7 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		B1B592841C4657B100405A55 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		B1B592851C4657B100405A55 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Carthage/Build/iOS/Parse.framework; sourceTree = "<group>"; };
+		B1B592891C465AA600405A55 /* StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		B1B5928A1C465AA600405A55 /* StoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		B1B5928C1C4661E900405A55 /* StoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreTableViewCell.h; sourceTree = "<group>"; };
+		B1B5928D1C4661E900405A55 /* StoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTableViewCell.m; sourceTree = "<group>"; };
 		B1CE49D51C44EF6D00FCB055 /* BeanstalkNLeaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanstalkNLeaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CE49D91C44EF6D00FCB055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1CE49DB1C44EF6D00FCB055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1CE49DC1C44EF6D00FCB055 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1CE49DE1C44EF6D00FCB055 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B1CE49DF1C44EF6D00FCB055 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1CE49DE1C44EF6D00FCB055 /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		B1CE49DF1C44EF6D00FCB055 /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		B1CE49E21C44EF6D00FCB055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1CE49E51C44EF6D00FCB055 /* BeanstalkNLeaves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeanstalkNLeaves.xcdatamodel; sourceTree = "<group>"; };
 		B1CE49E71C44EF6D00FCB055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CE49EA1C44EF6D00FCB055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CE49EC1C44EF6D00FCB055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CE49F21C44EFD800FCB055 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		B1CE49F31C44EFD800FCB055 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		B1CE49F51C44EFFA00FCB055 /* ContinueAsGuestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinueAsGuestViewController.h; sourceTree = "<group>"; };
+		B1CE49F61C44EFFA00FCB055 /* ContinueAsGuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinueAsGuestViewController.m; sourceTree = "<group>"; };
+		B1CE49F81C44F00D00FCB055 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		B1CE49F91C44F00D00FCB055 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		B1CE4A021C44F16B00FCB055 /* ButtonBoxNarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonBoxNarrow.png; path = "../../../Desktop/Khullad/App Image Assets/ButtonBoxNarrow.png"; sourceTree = "<group>"; };
+		B1CE4A031C44F16B00FCB055 /* ButtonBoxWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonBoxWide.png; path = "../../../Desktop/Khullad/App Image Assets/ButtonBoxWide.png"; sourceTree = "<group>"; };
+		B1CE4A061C44F16B00FCB055 /* SideMenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenuIcon.png; sourceTree = "<group>"; };
+		B1CE4A071C44F16B00FCB055 /* TextFieldLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextFieldLine.png; path = "../../../Desktop/Khullad/App Image Assets/TextFieldLine.png"; sourceTree = "<group>"; };
+		B1CE4A0D1C44F1D400FCB055 /* blackbgwhitelogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackbgwhitelogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,15 +99,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B592861C4657B100405A55 /* Bolts.framework in Frameworks */,
+				B1B592871C4657B100405A55 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B12A300B1C45093300C06D18 /* SWRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				B12A300C1C45096600C06D18 /* SWRevealViewController.h */,
+				B12A300D1C45096600C06D18 /* SWRevealViewController.m */,
+			);
+			name = SWRevealController;
+			sourceTree = "<group>";
+		};
+		B13D85991C477FFB00F5E369 /* Store Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B122C67C1C47832800873FA3 /* padlock-closed.png */,
+				B122C67D1C47832800873FA3 /* padlock-open.png */,
+				B13D85951C477FEF00F5E369 /* minusIcon.png */,
+				B13D85961C477FEF00F5E369 /* plusIcon.png */,
+			);
+			name = "Store Screen";
+			sourceTree = "<group>";
+		};
+		B1438A5E1C53A5F4000AB4BA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1438A5A1C539DDC000AB4BA /* texgyreadventor-bold.otf */,
+				B1438A5B1C539DDC000AB4BA /* texgyreadventor-regular.otf */,
+			);
+			name = Fonts;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B1CE49CC1C44EF6D00FCB055 = {
 			isa = PBXGroup;
 			children = (
+				B1B592841C4657B100405A55 /* Bolts.framework */,
+				B1B592851C4657B100405A55 /* Parse.framework */,
 				B1CE49D71C44EF6D00FCB055 /* BeanstalkNLeaves */,
 				B1CE49D61C44EF6D00FCB055 /* Products */,
 			);
@@ -60,10 +158,33 @@
 		B1CE49D71C44EF6D00FCB055 /* BeanstalkNLeaves */ = {
 			isa = PBXGroup;
 			children = (
+				B12A300B1C45093300C06D18 /* SWRevealController */,
 				B1CE49DB1C44EF6D00FCB055 /* AppDelegate.h */,
 				B1CE49DC1C44EF6D00FCB055 /* AppDelegate.m */,
-				B1CE49DE1C44EF6D00FCB055 /* ViewController.h */,
-				B1CE49DF1C44EF6D00FCB055 /* ViewController.m */,
+				B1CE49DE1C44EF6D00FCB055 /* InitialViewController.h */,
+				B1CE49DF1C44EF6D00FCB055 /* InitialViewController.m */,
+				B1CE49F21C44EFD800FCB055 /* SignInViewController.h */,
+				B1CE49F31C44EFD800FCB055 /* SignInViewController.m */,
+				B1CE49F51C44EFFA00FCB055 /* ContinueAsGuestViewController.h */,
+				B1CE49F61C44EFFA00FCB055 /* ContinueAsGuestViewController.m */,
+				B1CE49F81C44F00D00FCB055 /* MainScreenViewController.h */,
+				B1CE49F91C44F00D00FCB055 /* MainScreenViewController.m */,
+				B12A300F1C45147200C06D18 /* SideMenuViewController.h */,
+				B12A30101C45147200C06D18 /* SideMenuViewController.m */,
+				B12A30151C451B2000C06D18 /* SettingsViewController.h */,
+				B12A30161C451B2000C06D18 /* SettingsViewController.m */,
+				B1B592891C465AA600405A55 /* StoreViewController.h */,
+				B1B5928A1C465AA600405A55 /* StoreViewController.m */,
+				B1B5928C1C4661E900405A55 /* StoreTableViewCell.h */,
+				B1B5928D1C4661E900405A55 /* StoreTableViewCell.m */,
+				B1438A571C539012000AB4BA /* ReviewOrderViewController.h */,
+				B1438A581C539012000AB4BA /* ReviewOrderViewController.m */,
+				B1438A511C538E09000AB4BA /* ReviewOrderTableViewCell.h */,
+				B1438A521C538E09000AB4BA /* ReviewOrderTableViewCell.m */,
+				B160CCF01C4615CE00FD09C7 /* WebsiteViewController.h */,
+				B160CCF11C4615CE00FD09C7 /* WebsiteViewController.m */,
+				B160CCF31C4615D900FD09C7 /* BlogViewController.h */,
+				B160CCF41C4615D900FD09C7 /* BlogViewController.m */,
 				B1CE49E11C44EF6D00FCB055 /* Main.storyboard */,
 				B1CE49E71C44EF6D00FCB055 /* Assets.xcassets */,
 				B1CE49E91C44EF6D00FCB055 /* LaunchScreen.storyboard */,
@@ -77,9 +198,43 @@
 		B1CE49D81C44EF6D00FCB055 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1438A5E1C53A5F4000AB4BA /* Fonts */,
+				B1CE49FC1C44F0F600FCB055 /* Images */,
 				B1CE49D91C44EF6D00FCB055 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1CE49FC1C44F0F600FCB055 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B12A30051C44F83400C06D18 /* BackArrow.png */,
+				B1CE4A021C44F16B00FCB055 /* ButtonBoxNarrow.png */,
+				B1CE4A031C44F16B00FCB055 /* ButtonBoxWide.png */,
+				B1CE4A071C44F16B00FCB055 /* TextFieldLine.png */,
+				B1CE4A041C44F16B00FCB055 /* Inital Screen */,
+				B1CE4A051C44F16B00FCB055 /* Main Screen */,
+				B13D85991C477FFB00F5E369 /* Store Screen */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B1CE4A041C44F16B00FCB055 /* Inital Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B1CE4A0D1C44F1D400FCB055 /* blackbgwhitelogo.jpg */,
+			);
+			name = "Inital Screen";
+			path = "../../../Desktop/Khullad/App Image Assets/Inital Screen";
+			sourceTree = "<group>";
+		};
+		B1CE4A051C44F16B00FCB055 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B1CE4A061C44F16B00FCB055 /* SideMenuIcon.png */,
+			);
+			name = "Main Screen";
+			path = "../../../Desktop/Khullad/App Image Assets/Main Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +247,7 @@
 				B1CE49D11C44EF6D00FCB055 /* Sources */,
 				B1CE49D21C44EF6D00FCB055 /* Frameworks */,
 				B1CE49D31C44EF6D00FCB055 /* Resources */,
+				B1B592881C4657BE00405A55 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -139,23 +295,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1438A5C1C539DDC000AB4BA /* texgyreadventor-bold.otf in Resources */,
+				B1438A5D1C539DDC000AB4BA /* texgyreadventor-regular.otf in Resources */,
+				B1CE4A0A1C44F16B00FCB055 /* ButtonBoxWide.png in Resources */,
+				B13D85971C477FEF00F5E369 /* minusIcon.png in Resources */,
+				B122C67E1C47832800873FA3 /* padlock-closed.png in Resources */,
 				B1CE49EB1C44EF6D00FCB055 /* LaunchScreen.storyboard in Resources */,
+				B12A30061C44F83400C06D18 /* BackArrow.png in Resources */,
+				B122C67F1C47832800873FA3 /* padlock-open.png in Resources */,
 				B1CE49E81C44EF6D00FCB055 /* Assets.xcassets in Resources */,
+				B1CE4A091C44F16B00FCB055 /* ButtonBoxNarrow.png in Resources */,
+				B13D85981C477FEF00F5E369 /* plusIcon.png in Resources */,
+				B1CE4A0E1C44F1D400FCB055 /* blackbgwhitelogo.jpg in Resources */,
+				B1CE4A0C1C44F16B00FCB055 /* TextFieldLine.png in Resources */,
 				B1CE49E31C44EF6D00FCB055 /* Main.storyboard in Resources */,
+				B1CE4A0B1C44F16B00FCB055 /* SideMenuIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1B592881C4657BE00405A55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Parse.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bolts.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1CE49D11C44EF6D00FCB055 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12A30111C45147200C06D18 /* SideMenuViewController.m in Sources */,
+				B1CE49FA1C44F00D00FCB055 /* MainScreenViewController.m in Sources */,
+				B1438A591C539012000AB4BA /* ReviewOrderViewController.m in Sources */,
+				B160CCF51C4615D900FD09C7 /* BlogViewController.m in Sources */,
+				B1CE49F71C44EFFA00FCB055 /* ContinueAsGuestViewController.m in Sources */,
+				B1CE49F41C44EFD800FCB055 /* SignInViewController.m in Sources */,
+				B12A300E1C45096600C06D18 /* SWRevealViewController.m in Sources */,
+				B160CCF21C4615CE00FD09C7 /* WebsiteViewController.m in Sources */,
 				B1CE49E61C44EF6D00FCB055 /* BeanstalkNLeaves.xcdatamodeld in Sources */,
-				B1CE49E01C44EF6D00FCB055 /* ViewController.m in Sources */,
+				B1CE49E01C44EF6D00FCB055 /* InitialViewController.m in Sources */,
+				B1B5928E1C4661E900405A55 /* StoreTableViewCell.m in Sources */,
+				B12A30171C451B2000C06D18 /* SettingsViewController.m in Sources */,
+				B1B5928B1C465AA600405A55 /* StoreViewController.m in Sources */,
 				B1CE49DD1C44EF6D00FCB055 /* AppDelegate.m in Sources */,
 				B1CE49DA1C44EF6D00FCB055 /* main.m in Sources */,
+				B1438A531C538E09000AB4BA /* ReviewOrderTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +399,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -244,6 +443,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -265,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = BeanstalkNLeaves/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KT.BeanstalkNLeaves;
@@ -276,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = BeanstalkNLeaves/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KT.BeanstalkNLeaves;
@@ -302,6 +504,7 @@
 				B1CE49F11C44EF6D00FCB055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
